@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Models (large files, could be optionally tracked via DVC, but usually ignored)
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.bin
+
+# Output directories (generated reports, graphs, CSV results)
+output/
+raw_data*.pkl
+to_label.csv
+labeled_data.csv
+
+# Cache files
+saiga_cache.json
+*.cache
+.rubert_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+*.tmp
+*.temp
